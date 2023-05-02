@@ -1,0 +1,233 @@
+/* Her begynder CSS - 2 */
+
+/* Body */
+body {
+    background-color: #061f30;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Web size */
+@media only screen and (min-width: 600px) {
+/* Logo indstillinger */
+.logo {
+    float: left; 
+    width: 50px;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+/*Nav indstillinger*/
+.navbar {
+    float: right;
+    padding-top: 40px;
+    padding-right: 60px;
+    text-align: right;
+    line-height: 1.2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #e4e4e4;
+}
+
+a:hover { 
+    color: #feb6e0;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.active { 
+    color: #a1a1a1;
+}
+
+/* Column indstillinger */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.left-column {
+    flex-basis: 50%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.right-column {
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+
+/* Billed indstillinger */
+.image {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.imagetext {
+    padding-top: 0;
+    max-width: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: #a1a1a1;
+}
+
+/* Tekst indstillinger */
+.header-settings {
+    padding-top: 120px;
+    padding-left: 60px;
+    line-height: 20px;
+}
+
+.h1-sustainable {
+    color: #9bce96;
+    padding-top: 30px;
+    font-size: 100px;
+}
+
+.h3-sustainable {
+    color: #a1a1a1;
+    font-size: 40px;
+    padding-left: 40px;
+}
+
+.h4-sustainable {
+    font-size: 23px;
+    padding-left: 40px;
+    color: #e4e4e4;
+    line-height: 1.3;
+}
+
+/* Padding */
+.padding {
+    padding-bottom: 60px;
+}
+}
+
+/* Mobile size */
+@media only screen and (max-width: 600px) {
+/* Logo indstillinger */
+.logo {
+    float: left; 
+    width: 50px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+/*Nav indstillinger*/
+.navbar {
+    float: right;
+    padding-top: 40px;
+    padding-right: 20px;
+    text-align: right;
+    line-height: 1.2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+    color: #e4e4e4;
+}
+
+.active { 
+    color: #a1a1a1;
+}
+
+/* Billed indstillinger */
+.image {
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagetext {
+    max-width: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: #a1a1a1;
+}
+
+/* Tekst indstillinger */
+.header-settings {
+    padding-top: 100px;
+    line-height: 10px;
+}
+
+.h1-sustainable {
+    color: #9bce96;
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.h3-sustainable {
+    padding-left: 20px;
+    color: #a1a1a1;
+    font-size: 25px;
+}
+
+.h4-sustainable {
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: 20px;
+    color: #e4e4e4;
+}
+
+/* Padding */
+.padding {
+    padding-bottom: 100px;
+}
+}
+
+/* Footer indstillinger Web */
+@media only screen and (min-width: 600px) {
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 20px;
+    padding-bottom: 25px;
+    color: #a1a1a1;
+    font-size: 15px;
+}
+}
+
+/* Footer indstillinger Mobile */
+@media only screen and (max-width: 600px) {
+footer {
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 20px;
+    padding-bottom: 25px;
+    color: #a1a1a1;
+}
+}
